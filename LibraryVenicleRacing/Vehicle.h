@@ -3,11 +3,11 @@
 class Vehicle
 {
 private:
-	std::string vehiclename_;
+	std::string vehicle_name_;
 	int speed_;
 public:
-	Vehicle(std::string veniclename, int speed);
-	std::string get_vehiclename();
+	Vehicle(std::string venicle_name, int speed);
+	std::string get_vehicle_name();
 	virtual double time(int dist) const = 0;
 };
 

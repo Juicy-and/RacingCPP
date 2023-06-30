@@ -76,12 +76,12 @@ void reg(char* game, std::vector<Vehicle*>* vehicle,int* dist, bool* change)
 			else
 				std::cout << "Недопустимый тип транспорта!\n";
 
-			std::cout << vehicle->back()->get_vehiclename() << " успешно зарегистрирован!" << std::endl;
+			std::cout << vehicle->back()->get_vehicle_name() << " успешно зарегистрирован!" << std::endl;
 			std::cout << "Зарегистрированные транспортные средства: ";
 			size_t y = 0;
 			for (auto& i : *vehicle)
 			{
-				std::cout << i->get_vehiclename();
+				std::cout << i->get_vehicle_name();
 				y++;
 				if (y != vehicle->size())
 					std::cout << ", ";
@@ -101,7 +101,7 @@ void racing(std::vector<Vehicle*>* vehicle,int dist)
 	std::map<double, std::string> vehicle2;
 	for (auto& i : *vehicle)
 	{
-		vehicle2.insert(std::pair <double, std::string>(i->time(dist), i->get_vehiclename()));
+		vehicle2.insert(std::pair <double, std::string>(i->time(dist), i->get_vehicle_name()));
 	}
 	for (auto& i : vehicle2)
 	{

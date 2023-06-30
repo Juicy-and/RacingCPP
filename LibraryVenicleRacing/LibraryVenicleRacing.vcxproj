@@ -164,10 +164,10 @@
     <ClInclude Include="Camel.h" />
     <ClInclude Include="Centaur.h" />
     <ClInclude Include="Eagle.h" />
-    <ClInclude Include="Magiccarpet.h" />
-    <ClInclude Include="Speedcamel.h" />
+    <ClInclude Include="MagicCarpet.h" />
+    <ClInclude Include="SpeedCamel.h" />
     <ClInclude Include="Vair.h" />
-    <ClInclude Include="Venicle.h" />
+    <ClInclude Include="Vehicle.h" />
     <ClInclude Include="VGround.h" />
   </ItemGroup>
   <ItemGroup>
@@ -176,10 +176,10 @@
     <ClCompile Include="Camel.cpp" />
     <ClCompile Include="Centaur.cpp" />
     <ClCompile Include="Eagle.cpp" />
-    <ClCompile Include="Magiccarpet.cpp" />
-    <ClCompile Include="Speedcamel.cpp" />
+    <ClCompile Include="MagicCarpet.cpp" />
+    <ClCompile Include="SpeedCamel.cpp" />
     <ClCompile Include="Vair.cpp" />
-    <ClCompile Include="Venicle.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="VGround.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

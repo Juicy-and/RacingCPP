@@ -9,6 +9,6 @@ private:
 	const int timeRest = 60;
 public:
 	Boots();
-	double time(int* dist) const override;
+	double time(int dist) const override;
 };
 

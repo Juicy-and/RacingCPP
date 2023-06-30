@@ -9,5 +9,5 @@ private:
 	const int timeRest = 8;
 public:
 	Centaur();
-	double time(int* dist) const override;
+	double time(int dist) const override;
 };

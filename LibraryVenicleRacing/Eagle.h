@@ -8,5 +8,5 @@ private:
 	const int speed = 8;
 public:
 	Eagle();
-	double time(int* dist) const override;
+	double time(int dist) const override;
 };

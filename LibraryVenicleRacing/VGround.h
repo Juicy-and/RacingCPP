@@ -1,7 +1,7 @@
 #pragma once
-#include "Venicle.h"
+#include "Vehicle.h"
 
-class VGround : public Venicle
+class VGround : public Vehicle
 {
 private:
 	int timeRest_;

@@ -9,7 +9,7 @@ private:
 	const int timeRest = 30;
 public:
 	Camel();
-	double time(int* dist) const override;
+	double time(int dist) const override;
 };
 
 

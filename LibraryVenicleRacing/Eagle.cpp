@@ -5,7 +5,7 @@ Eagle::Eagle() : Vair("Îğ¸ë", 8)
 {
 }
 
-double Eagle::time(int* dist) const
+double Eagle::time(int dist) const
 {
-	return *dist * 0.94 / speed;
+	return dist * 0.94 / speed;
 }

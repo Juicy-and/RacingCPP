@@ -1,18 +1,20 @@
-
+#include <cmath>
 #include "Boots.h"
 
 Boots::Boots() : VGround("Ботинки-вездеходы", 6)
 {
 }
-double Boots::time(int *dist) const
+double Boots::time(int dist) const
 {
-	double x, y;
-	x = *dist / static_cast<double>(speed);
+	double x, y, t;
+	x = dist / static_cast<double>(speed);
+	t = x / timeRest;
+	t = floor(t);
 	if (x < timeRest)
 		return x;
 	else
 	{
-		y = ((x / timeRest) - 1) * 5 + 10;
+		y = ((t) - 1) * 5 + 10;
 		x = x + y;
 		return x;
 	}

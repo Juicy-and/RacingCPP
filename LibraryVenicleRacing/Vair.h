@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Venicle.h"
-class Vair : public Venicle
+#include "Vehicle.h"
+class Vair : public Vehicle
 {
 public:
 	Vair(std::string name, int speed);

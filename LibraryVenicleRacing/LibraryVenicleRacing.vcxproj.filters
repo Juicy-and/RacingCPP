@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Venicle.h">
+    <ClInclude Include="Vehicle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Boots.h">
@@ -33,10 +33,10 @@
     <ClInclude Include="Eagle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Speedcamel.h">
+    <ClInclude Include="SpeedCamel.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Magiccarpet.h">
+    <ClInclude Include="MagicCarpet.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="VGround.h">
@@ -47,7 +47,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Venicle.cpp">
+    <ClCompile Include="Vehicle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Boots.cpp">
@@ -65,10 +65,10 @@
     <ClCompile Include="Eagle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Speedcamel.cpp">
+    <ClCompile Include="SpeedCamel.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Magiccarpet.cpp">
+    <ClCompile Include="MagicCarpet.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="VGround.cpp">

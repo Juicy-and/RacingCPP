@@ -1,13 +1,13 @@
 #pragma once
 #include <string>
 #include "Vair.h"
-class Broom : public Vair
+class MagicCarpet: public Vair
 {
 private:
-	const std::string name = "Метла";
-	const int speed = 20;
+	const std::string name = "Ковёр-самолёт";
+	const int speed = 10;
 public:
-	Broom();
+	MagicCarpet();
 	double time(int dist) const override;
 };
 
